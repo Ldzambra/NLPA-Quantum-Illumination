@@ -10,7 +10,7 @@ from qutip import basis, tensor, destroy, qeye, coherent, expect
 n_max = 32
 Nth = 1.0
 R = 0.01
-T_PROP_best = 0.001
+T_PROP_best = 0.99999
 
 r = np.arcsinh(np.sqrt(0.05))
 lam = np.tanh(r)
